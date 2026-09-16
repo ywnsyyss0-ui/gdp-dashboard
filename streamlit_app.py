@@ -1,5 +1,6 @@
 
-import re
+import re,os
+os.system('pip install telethon')
 import asyncio
 import logging
 from telethon import TelegramClient, events
